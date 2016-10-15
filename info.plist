@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>tellij</string>
 	<key>bundleid</key>
 	<string>com.codebud7.tellij</string>
 	<key>category</key>
@@ -14,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D7D3C76B-16C7-418B-B37E-91AA5416C084</string>
+				<string>34D8A1EA-6A87-4CD8-8FC5-8BAB9E56C882</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -24,29 +22,16 @@
 			</dict>
 		</array>
 	</dict>
+	<key>createdby</key>
+	<string>Sebastian Puskeiler</string>
+	<key>description</key>
+	<string>Awesome workflow for jetbrains intelliJ.</string>
 	<key>disabled</key>
 	<false/>
+	<key>name</key>
+	<string>tellij</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>D7D3C76B-16C7-418B-B37E-91AA5416C084</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -77,7 +62,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Awesome workflow for jetbrains intelliJ.</string>
+				<string>Tellij</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -90,17 +75,34 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/IntelliJ IDEA.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>34D8A1EA-6A87-4CD8-8FC5-8BAB9E56C882</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>D7D3C76B-16C7-418B-B37E-91AA5416C084</key>
+		<key>34D8A1EA-6A87-4CD8-8FC5-8BAB9E56C882</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
 			<key>xpos</key>
-			<integer>150</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>90</integer>
 		</dict>
 		<key>3E0BE011-596C-4FF6-B5F9-70E75F7B1254</key>
 		<dict>
@@ -110,5 +112,9 @@
 			<integer>10</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>0.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/codebud7/tellij#readme</string>
 </dict>
 </plist>
