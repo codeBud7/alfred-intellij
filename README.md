@@ -1,3 +1,5 @@
+<img src="https://github.com/codeBud7/tellij/blob/master/doc/screenshot.png">
+
 tellij - IntelliJ Workflow for Alfred
 ==============================
 
