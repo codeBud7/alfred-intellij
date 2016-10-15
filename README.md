@@ -1,4 +1,4 @@
-telliJ - IntelliJ Workflow for Alfred
+tellij - IntelliJ Workflow for Alfred
 ==============================
 
 Prerequisites
@@ -11,11 +11,10 @@ Install by npm
 ```
 $ npm install -g telliJ
 ```
-Adjust the config.json placed in '/Users/{user}/Library/Application Support/Alfred 3/Workflow Data/com.codebud7.telliJ/config.json'
+Adjust the config.json placed in '/Users/{user}/Library/Application Support/Alfred 3/Workflow Data/com.codebud7.tellij/config.json'
 ```
 {
-  "hosts" : ["http://bamboo.sample.com"],
-  "auth": "foo=="
+  "directories" : "/Volumes/repos/"
 }
 ```
 
