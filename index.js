@@ -7,7 +7,7 @@ const exec = require('child_process').exec;
 
 alfredNotifier();
 
-exec('find ' + dirs + ' -iname ' + alfy.input + '*.iml -maxdepth 2', (error, stdout, stderr) => {
+exec('find ' + '/Volumes/mytaxidev/workspace_backend/' + ' -iname ' + alfy.input + '*.iml -maxdepth 2', (error, stdout, stderr) => {
 	if (error) {
 		alfy.error(stderr);
 		return;
@@ -23,7 +23,7 @@ exec('find ' + dirs + ' -iname ' + alfy.input + '*.iml -maxdepth 2', (error, std
 			x.replace(/.*\//, '')
 			.replace(/.iml/i, '').slice(1),
 		subtitle: x,
-		arg: x
+		arg: x.substring(0, x.lastIndexOf("/"))
 	}));
 
 	alfy.output(items);
