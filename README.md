@@ -9,7 +9,7 @@ You need [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.c
 
 Install
 ----------------
-Install by npm1
+Install by npm
 ```
 $ npm install -g tellij
 ```
