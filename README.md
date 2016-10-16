@@ -9,7 +9,7 @@ You need [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.c
 
 Install
 ----------------
-Install by npm
+Install by npm1
 ```
 $ npm install -g tellij
 ```
@@ -25,7 +25,8 @@ Key Combinations
 
 Key Combination        | Action
 ---------------------- | ------
-`enter`                | Open project into IntelliJ
+`enter`                | Open project in IntelliJ
+`ctr`                | Open project in finder
 
 Related
 ----------------
