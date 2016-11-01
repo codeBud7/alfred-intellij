@@ -26,7 +26,7 @@ Key Combinations
 Key Combination        | Action
 ---------------------- | ------
 `enter`                | Open project in IntelliJ
-`ctr`                | Open project in finder
+`ctrl`                | Open project in finder
 
 Related
 ----------------
@@ -38,4 +38,4 @@ Related
 
 License
 ----------------
-MIT © [Sebastian Puskeiler](twitter.com/ebud7)
+MIT © [Sebastian Puskeiler](https://twitter.com/ebud7)
