@@ -14,6 +14,7 @@ Install by npm
 $ npm install -g tellij
 ```
 Adjust the config.json placed in '~/Library/Preferences/alfy-nodejs/config.json'
+(Alfred 3 config could be possible located here '/Users/{user}/Library/Application Support/Alfred 3/Workflow Data/com.codebud7.tellij')
 ```
 {
   "directories" : "/Volumes/repos/"
