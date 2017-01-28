@@ -7,7 +7,7 @@ const exec = require('child_process').exec;
 
 alfredNotifier();
 
-exec('find ' + '/Volumes/mytaxidev/workspace_backend/' + ' -iname ' + alfy.input + '*.iml -maxdepth 2', (error, stdout, stderr) => {
+exec('find ' + dirs + ' -iname ' + alfy.input + '*.iml -maxdepth 2', (error, stdout, stderr) => {
 	if (error) {
 		alfy.error(stderr);
 		return;
