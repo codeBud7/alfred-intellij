@@ -3,6 +3,8 @@
 tellij - IntelliJ Workflow for Alfred
 ==============================
 
+[![NPM](https://nodei.co/npm/tellij.png)](https://nodei.co/npm/tellij/)
+
 Prerequisites
 ----------------
 You need [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.
