@@ -31,6 +31,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A4858D61-54FC-4025-BF6B-BFD078B30250</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A5E2241-659D-4B7A-885E-0DDEB019F85E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Sebastian Puskeiler</string>
@@ -46,7 +59,7 @@
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/IntelliJ IDEA.app</string>
+				<string>/Applications/IntelliJ IDEA 2017.1 EAP.app</string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
@@ -108,11 +121,62 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node config.js $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0A5E2241-659D-4B7A-885E-0DDEB019F85E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>tell-config</string>
+				<key>subtext</key>
+				<string>Just add the path to your repositories</string>
+				<key>text</key>
+				<string>Tellij configuration</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A4858D61-54FC-4025-BF6B-BFD078B30250</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>0A5E2241-659D-4B7A-885E-0DDEB019F85E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
 		<key>34D8A1EA-6A87-4CD8-8FC5-8BAB9E56C882</key>
 		<dict>
 			<key>colorindex</key>
@@ -129,6 +193,13 @@
 			<key>ypos</key>
 			<integer>140</integer>
 		</dict>
+		<key>A4858D61-54FC-4025-BF6B-BFD078B30250</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
 		<key>E1831683-C3F3-4840-8496-359D0ABFE7B9</key>
 		<dict>
 			<key>xpos</key>
@@ -138,7 +209,7 @@
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.2</string>
+	<string>2.0.4</string>
 	<key>webaddress</key>
 	<string>https://github.com/codebud7/tellij#readme</string>
 </dict>
