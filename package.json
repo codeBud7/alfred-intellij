@@ -18,7 +18,8 @@
   "files": [
     "index.js",
     "icon.png",
-    "info.plist"
+    "info.plist",
+    "config.js"
   ],
   "keywords": [
     "alfred",
@@ -26,7 +27,7 @@
     ""
   ],
   "dependencies": {
-    "alfred-link": "^0.1.0",
+    "alfred-link": "^0.1.4",
     "alfred-notifier": "^0.1.0",
     "alfy": "^0.3.0"
   },
