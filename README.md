@@ -15,7 +15,7 @@ $ npm install -g tellij
 ```
 
 <img src="https://github.com/codeBud7/tellij/blob/master/doc/configuration.png">
-Enter the configuration flow by pressing `tell-config` and paste the path to your repositories.
+- Enter the configuration flow by pressing `tell-config` and paste the path to your repositories.
 
 Key Combinations
 ----------------
