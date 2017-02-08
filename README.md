@@ -1,5 +1,3 @@
-<img src="https://github.com/codeBud7/tellij/blob/master/doc/screenshot.png">
-
 tellij - IntelliJ Workflow for Alfred
 ==============================
 
@@ -15,16 +13,14 @@ Install by npm
 ```
 $ npm install -g tellij
 ```
-Adjust the config.json placed in '~/Library/Preferences/alfy-nodejs/config.json'
-(Alfred 3 config could be possible located here '/Users/{user}/Library/Application Support/Alfred 3/Workflow Data/com.codebud7.tellij')
-```
-{
-  "directories" : "/Volumes/repos/"
-}
-```
+
+<img src="https://github.com/codeBud7/tellij/blob/master/doc/configuration.png">
+Enter the configuration flow by pressing `tell-config` and paste the path to your repositories.
 
 Key Combinations
 ----------------
+
+<img src="https://github.com/codeBud7/tellij/blob/master/doc/workflow.png">
 
 Key Combination        | Action
 ---------------------- | ------
