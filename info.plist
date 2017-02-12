@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.codebud7.tellij</string>
+	<string>com.codebud7.alfred-intellij</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>

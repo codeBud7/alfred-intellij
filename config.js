@@ -4,4 +4,4 @@ const alfredNotifier = require('alfred-notifier');
 
 alfredNotifier();
 
-alfy.config.set('directories', alfy.input);
+alfy.config.set('alfred-intellij-projectDirectory', alfy.input);

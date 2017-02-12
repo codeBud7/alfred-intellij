@@ -1,31 +1,31 @@
-tellij - IntelliJ Workflow for Alfred
+alfred-intellij - Handle your IntelliJ project with Alfred.
 ==============================
 
-[![NPM](https://nodei.co/npm/tellij.png)](https://nodei.co/npm/tellij/)
+[![NPM](https://nodei.co/npm/alfred-intellij.png)](https://nodei.co/npm/alfred-intellij/)
 
 Prerequisites
 ----------------
-You need [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.
+You need to install [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.
 
 Install
 ----------------
 Install by npm
 ```
-$ npm install -g tellij
+$ npm install -g alfred-intellij
 ```
 
-<img src="https://github.com/codeBud7/tellij/blob/master/doc/configuration.png">
+<img src="https://github.com/codeBud7/alfred-intellij/blob/master/doc/configuration.png">
 - Enter the configuration flow by pressing `tell-config` and paste the path to your repositories.
 
 Key Combinations
 ----------------
 
-<img src="https://github.com/codeBud7/tellij/blob/master/doc/workflow.png">
+<img src="https://github.com/codeBud7/alfred-intellij/blob/master/doc/workflow.png">
 
 Key Combination        | Action
 ---------------------- | ------
 `enter`                | Open project in IntelliJ
-`ctrl`                | Open project in finder
+`ctrl`                | Open project in Finder
 
 Related
 ----------------

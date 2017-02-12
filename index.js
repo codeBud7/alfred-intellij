@@ -2,7 +2,7 @@
 const alfy = require('alfy');
 const alfredNotifier = require('alfred-notifier');
 
-const dirs = alfy.config.get('directories');
+const dirs = alfy.config.get('alfred-intellij-projectDirectory');
 const exec = require('child_process').exec;
 
 alfredNotifier();

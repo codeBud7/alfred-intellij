@@ -1,9 +1,9 @@
 {
-  "name": "tellij",
+  "name": "alfred-intellij",
   "version": "5.0.0",
-  "description": "Awesome workflow for jetbrains intelliJ.",
+  "description": "Alfred workflow for IntelliJ project handling.",
   "license": "MIT",
-  "repository": "codebud7/tellij",
+  "repository": "codebud7/alfred-intellij",
   "author": {
     "name": "Sebastian Puskeiler",
     "url": "github.com/codeBud7"
@@ -24,7 +24,7 @@
   "keywords": [
     "alfred",
     "workflow",
-    ""
+    "intelliJ"
   ],
   "dependencies": {
     "alfred-link": "^0.1.4",
