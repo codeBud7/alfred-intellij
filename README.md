@@ -1,4 +1,4 @@
-alfred-intellij - Handle your IntelliJ project with Alfred.
+Handle your IntelliJ projects with Alfred.
 ==============================
 
 [![NPM](https://nodei.co/npm/alfred-intellij.png)](https://nodei.co/npm/alfred-intellij/)
