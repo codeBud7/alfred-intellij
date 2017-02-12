@@ -28,6 +28,7 @@ Key Combination        | Action
 
 Related
 ----------------
+- Capable and ergonomic IDE for JVM [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 - Create Alfred workflows with ease - [alfy](https://github.com/sindresorhus/alfy)
 - Scaffold out an Alfred workflow - [yeoman alfred generator](https://github.com/SamVerschueren/generator-alfred)
 - Icon made by Freepik from www.flaticon.com
