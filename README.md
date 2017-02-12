@@ -1,31 +1,30 @@
 Handle your IntelliJ projects with Alfred.
 ==============================
 
-[![NPM](https://nodei.co/npm/alfred-intellij.png)](https://nodei.co/npm/alfred-intellij/)
-
 Prerequisites
 ----------------
-You need to install [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.
+You need to install [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com).
 
 Install
 ----------------
-Install by npm
+[![NPM](https://nodei.co/npm/alfred-intellij.png)](https://nodei.co/npm/alfred-intellij/)
+
 ```
 $ npm install -g alfred-intellij
 ```
 
-<img src="https://github.com/codeBud7/alfred-intellij/blob/master/doc/configuration.png">
-- Enter the configuration flow by pressing `tell-config` and paste the path to your repositories.
-
-Key Combinations
+Usage
 ----------------
+<img src="https://github.com/codeBud7/alfred-intellij/blob/master/doc/configuration.png">
+Configure the path to your local projects.
 
 <img src="https://github.com/codeBud7/alfred-intellij/blob/master/doc/workflow.png">
+Find your local projects.
 
 Key Combination        | Action
 ---------------------- | ------
-`enter`                | Open project in IntelliJ
-`ctrl`                | Open project in Finder
+`enter`                | Open your project in IntelliJ
+`ctrl`                | Open your project in Finder
 
 Related
 ----------------
