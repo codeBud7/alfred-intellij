@@ -90,7 +90,7 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string>Searching your projects...</string>
+				<string>Finding your local project(s)...</string>
 				<key>script</key>
 				<string>./node_modules/.bin/run-node index.js "$1"</string>
 				<key>scriptargtype</key>
@@ -98,7 +98,7 @@
 				<key>scriptfile</key>
 				<string>index.js</string>
 				<key>subtext</key>
-				<string></string>
+				<string>Find your local projects.</string>
 				<key>title</key>
 				<string>alfred-intellij</string>
 				<key>type</key>
@@ -124,27 +124,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>tell-config</string>
-				<key>subtext</key>
-				<string>Paste the path to your local projects.</string>
-				<key>text</key>
-				<string>alfred-intellij configuration</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>A4858D61-54FC-4025-BF6B-BFD078B30250</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -164,6 +143,27 @@
 			<string>0A5E2241-659D-4B7A-885E-0DDEB019F85E</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>tell-config</string>
+				<key>subtext</key>
+				<string>Configure the path to your local projects.</string>
+				<key>text</key>
+				<string>alfred-intellij configuration</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A4858D61-54FC-4025-BF6B-BFD078B30250</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -209,7 +209,7 @@
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>6.0.0</string>
+	<string>6.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/codebud7/alfred-intellij#readme</string>
 </dict>
