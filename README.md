@@ -19,7 +19,7 @@ Usage
 Configure the path to your local projects.
 
 <img src="https://github.com/codeBud7/alfred-intellij/blob/master/doc/workflow.png">
-Find your local projects.
+Find and open your local projects.
 
 Key Combination        | Action
 ---------------------- | ------
